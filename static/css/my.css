@@ -1,0 +1,63 @@
+body{
+  background: linear-gradient(to right,#40E0D0,#FF8C00,#FF0080);
+  /* font-family: 'Allerta Stencil', sans-serif !important; */
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+.mybg{
+  background-color: transparent;
+}
+
+.inp{
+padding: 8px;
+border: none;
+width: 320px;
+}
+
+.inp1{
+padding: 8px;
+border: none;
+width: 40%;
+}
+
+.btn{
+  padding: 8px;
+}
+
+.not{
+margin-top: 20px;
+font-size: 20px;
+
+}
+
+.success{
+  color: green;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#error1{
+  color: #a80d0d;
+  font-size: 18px;
+}
+
+#my{
+	width: 900px;
+	max-height: 500px;
+	margin-top: 50px;
+	border-radius: 8px;
+	background-color: white;
+  opacity: 0.8;
+}
+table{
+	border-collapse: collapse;
+	width: 100%
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
